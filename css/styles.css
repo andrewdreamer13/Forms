@@ -1,0 +1,145 @@
+/* Reset styles */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+nav, footer, header, aside, label {
+  display: block;
+}
+
+input, button, textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+::placeholder {
+  color: inherit;
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: #efe9e9;
+  color: rgb(7, 44, 62);
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1230px;
+  padding: 0 15px;
+}
+
+.section {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #fdf9f9;
+}
+
+.main-title {
+  position: relative;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(118, 15, 29);
+  max-width: 440px;
+  margin: 30px auto 100px;
+}
+.main-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  translate: -50% 0 0;
+  bottom: -15px;
+  width: 70%;
+  height: 3px;
+  background-color: rgb(118, 15, 29);
+  border-radius: 100%;
+}
+
+.section-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(149, 33, 48);
+  margin-bottom: 50px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px 15px;
+  border: 1px solid rgb(149, 33, 48);
+  border-radius: 8px;
+}/*# sourceMappingURL=styles.css.map */
