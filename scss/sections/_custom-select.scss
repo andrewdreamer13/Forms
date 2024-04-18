@@ -1,0 +1,38 @@
+.custom-select {
+  position: relative;
+  background-color: #e03030;
+}
+
+.custom-select__button {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 40px 10px 10px;
+  border:1px solid $title-color;
+  border-radius:8px;
+  text-align: left;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    translate: 0 -50% 0;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-top:solid 12px $title-color;
+    border-left:solid 8px transparent;
+    border-right:solid 8px transparent;
+    pointer-events: none;
+  }
+}
+
+.custom-select__list {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  list-style-type: none;
+}
+.custom-select__item {
+  margin-bottom: 10px;
+}
